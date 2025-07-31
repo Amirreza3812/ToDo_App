@@ -4,7 +4,7 @@ This is a simple To-Do application built with Node.js and Express. The API allow
 Requirements
 
     Node.js
-    MongoDB
+    SQL
 
 ## Installation
 
@@ -12,7 +12,7 @@ Requirements
 
 ```
 
-git clone https://github.com/erenokur/nodejs-todo-backend
+git clone https://github.com/Amirreza3812/ToDo_App.git
 
 ```
 
@@ -28,9 +28,14 @@ yarn
 Create a .env file in the root directory of the project and add the following variables:
 
 ```
-APP_PORT=your-app-port
-MONGO_URL=your-mongodb-uri
-SECRET_TOKEN=your-jwt-secret
+APP_PORT=YOUR PORT
+SECRET_TOKEN=YOUR SECRET KEY
+DB_HOST=localhost
+DB_PORT=DATA BASE PORT
+DB_USER=root
+DB_PASSWORD= DATA BASE PASSWORD
+DB_NAME=DATA BASE NAME
+
 
 ```
 
@@ -64,4 +69,4 @@ Authorization: Bearer your-jwt-token
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-"# ToDo_App" 
+"# ToDo_App"
