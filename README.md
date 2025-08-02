@@ -28,6 +28,7 @@ yarn
 Create a .env file in the root directory of the project and add the following variables:
 
 ```
+BASE_URL= http://your.server.ip
 APP_PORT=YOUR PORT
 SECRET_TOKEN=YOUR SECRET KEY
 DB_HOST=localhost

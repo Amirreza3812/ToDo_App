@@ -61,6 +61,6 @@ app.get("/", (req, res) => {
 });
 
 // اجرای سرور
-app.listen(process.env.APP_PORT, () => {
+app.listen(process.env.APP_PORT,'0.0.0.0', () => {
   console.log(`Server is running on port ${process.env.APP_PORT}`);
 });
