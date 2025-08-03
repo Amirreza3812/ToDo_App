@@ -4,7 +4,7 @@ This is a simple To-Do application built with Node.js and Express. The API allow
 Requirements
 
     Node.js
-    SQL
+    PostgreSQL
 
 ## Installation
 
@@ -27,16 +27,16 @@ yarn
 
 Create a .env file in the root directory of the project and add the following variables:
 
-```
-BASE_URL= http://your.server.ip
-APP_PORT=YOUR PORT
+```                          
+BASE_URL= http://your.server.ip <!-- This line for swagger -->
 SECRET_TOKEN=YOUR SECRET KEY
+DB_DIALECT=postgres
 DB_HOST=localhost
-DB_PORT=DATA BASE PORT
-DB_USER=root
-DB_PASSWORD= DATA BASE PASSWORD
-DB_NAME=DATA BASE NAME
-
+DB_USER=postgres
+DB_PASSWORD=رمز_پستگرس_توی_رزبری
+DB_NAME=todo_app
+DB_PORT=5432
+APP_PORT=YOUR PORT
 
 ```
 
