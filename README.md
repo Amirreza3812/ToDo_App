@@ -11,8 +11,10 @@ Requirements
 1 Clone the repository:
 
 ```
+to clone just this branch
 
-git clone https://github.com/Amirreza3812/ToDo_App.git
+git clone -b postgres-version --single-branch https://github.com/your-username/your-repo.git
+
 
 ```
 
@@ -33,7 +35,7 @@ SECRET_TOKEN=YOUR SECRET KEY
 DB_DIALECT=postgres
 DB_HOST=localhost
 DB_USER=postgres
-DB_PASSWORD=رمز_پستگرس_توی_رزبری
+DB_PASSWORD=YOUR DB PASSWORD
 DB_NAME=todo_app
 DB_PORT=5432
 APP_PORT=YOUR PORT
